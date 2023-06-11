@@ -1,3 +1,7 @@
+{% extends 'base.html' %} 
+
+
+{% block content %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +13,9 @@
 <body>
 
     <div class="bg-white">
-        <!--<h3 class="text-green-950 font-extrabold text-7xl mt-60 text-center">BLOGVILLE</h3> {% endcomment %}
+        <!--<h3 class="text-green-950 font-extrabold text-7xl mt-60 text-center">BLOGVILLE</h3>
 
-        <div class="mt-44 text-9xl font-extrabold ml-16 font-sans decoration-8">-->
+        <div class="mt-44 text-9xl font-extrabold ml-16 font-sans decoration-8">
         <img src="images/girl.jpeg" class="w-full mr-8 rounded-3xl">
     
         <div class="text-center">
@@ -23,7 +27,19 @@
 
         <div class="mt-80 ml-20">
             <a href="signup.html" class="text-white bg-green-950 rounded-2xl text-center text-6xl font-bold py-8 px-60 ">Get Started</a>
+        </div>-->
+               
+        <div class="bg-green-950 text-white text-7xl w-full shadow-2xl drop-shadow-2xl">
+            <p class="text-center py-32 font-bold">Welcome to BlogVille</p>
         </div>
-                
+        <p class="text-green-950 pt-20 text-center text-4xl">THE BEST CREATIVE AGENCY</p>
+        <div class="text-center">
+            <p class="text-7xl text-black mt-16 font-bold pr-4">We are the solution <br></p>  
+            <p class="text-7xl text-black font-bold mt-4">for your project</span></p>  
+            
+            <p class="text-2xl mt-28 font-light">Discover the world of blogging, unleash your creativity<br> and make your voice heard.</p> 
+        </div>        
 </body>
 </head>
+
+{% endblock content %}
